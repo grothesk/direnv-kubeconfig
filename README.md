@@ -6,6 +6,7 @@ Set kubeconfig for your project folder
 2. Copy `.envrc` into your project folder and `direnv allow`it.
 3. Configure `kubeconfig` according to your needs.
 4. Check if it is working by using `kubectl`.
+5. Add `.envrc` and `kubeconfig` to `.gitignore`.
 
 ## Use
 As long the current directory is in the project folder, you are using the configuration in the `kubeconfig`.
